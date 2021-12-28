@@ -87,6 +87,6 @@ go build
 #### 使用示例
 ```
 curl http://localhost:8080/metrics
-curl http://localhost:8080/metrics
-curl http://localhost:8080/metrics
+curl http://localhost:8081/metrics
+curl http://localhost:8082/metrics
 ```
