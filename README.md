@@ -72,7 +72,7 @@ See the [contributing guidelines](CONTRIBUTING.md) and the
 #### install go
 ```
 # Fetch the client library code and compile example.
-git clone https://github.com/prometheus/client_golang.git
+git clone https://github.com/daviderli614/client_golang.git
 cd client_golang/examples/random
 go get -d
 go build
