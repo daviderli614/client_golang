@@ -69,10 +69,10 @@ See the [contributing guidelines](CONTRIBUTING.md) and the
 
 
 ## Quick Start
-#### 需要按照go并在环境变量中指定正确的GOPATH
+#### install go
 ```
 # Fetch the client library code and compile example.
-git clone https://github.com/prometheus/client_golang.git
+git clone https://github.com/daviderli614/client_golang.git
 cd client_golang/examples/random
 go get -d
 go build
@@ -84,9 +84,8 @@ go build
 ./random -listen-address=:8082
 ```
 
-#### 使用示例
 ```
 curl http://localhost:8080/metrics
-curl http://localhost:8080/metrics
-curl http://localhost:8080/metrics
+curl http://localhost:8081/metrics
+curl http://localhost:8082/metrics
 ```
